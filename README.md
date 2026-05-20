@@ -67,7 +67,7 @@ The dataset contains seven hydrophobicity classes:
 
 ## Dataset Samples
 
-![Dataset Samples](images/dataset_samples.png)
+![Dataset Samples](images/dataset_samples(1).png)
 
 ---
 
@@ -115,7 +115,7 @@ Easy → Medium → Hard
 
 ### Curriculum Learning
 
-![Curriculum Learning](images/curriculum.png)
+![Curriculum Learning](images/kd_confidence.png)
 
 ---
 
@@ -129,7 +129,7 @@ The proposed dynamic wisdom ratio adapts distillation strength according to:
 
 ### Dynamic KD
 
-![Dynamic KD](images/dynamic_kd.png)
+![Dynamic KD](images/confidence_match.png)
 
 ---
 
@@ -169,7 +169,7 @@ The proposed dynamic wisdom ratio adapts distillation strength according to:
 
 ## Accuracy vs Model Size
 
-![Accuracy vs Size](images/results_graph.png)
+![Accuracy vs Size](images/kd_vs_clkd.png)
 
 ### Key Observations
 
@@ -184,7 +184,7 @@ The proposed dynamic wisdom ratio adapts distillation strength according to:
 
 ## t-SNE Visualization
 
-![t-SNE](images/tsne.png)
+![t-SNE](images/centroid.png)
 
 ## Fisher Discriminant Ratio
 
@@ -201,6 +201,44 @@ The proposed dynamic wisdom ratio adapts distillation strength according to:
 ## Case 2: Both Wrong but Student Closer
 
 ![GUI Case 2](images/gui_case2.png)
+
+---
+
+# Additional Analysis
+
+## Agreement Rate per Class
+
+![Agreement](images/agreement.png)
+
+---
+
+## Disagreement Analysis
+
+![Disagreements](images/disagreements.png)
+
+---
+
+## Student Confidence Distribution
+
+![Confidence Distribution](images/confidence_dist.png)
+
+---
+
+## Teacher-Student Confidence Match
+
+![Confidence Match](images/confidence_match.png)
+
+---
+
+## Hyperparameter Sensitivity
+
+![Heatmap](images/heatmap.png)
+
+---
+
+## Pareto Front
+
+![Pareto](images/pareto.png)
 
 ---
 
@@ -255,4 +293,3 @@ If you use this work, please cite:
 **Satarupa Das**  
 M.Tech Researcher  
 National Institute of Technology Durgapur
-
