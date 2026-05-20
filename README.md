@@ -67,7 +67,7 @@ The dataset contains seven hydrophobicity classes:
 
 ## Dataset Samples
 
-![Dataset Samples](images/dataset_samples(1).png)
+![Dataset Samples](images/dataset_samples.png)
 
 ---
 
